@@ -1,0 +1,205 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-y: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: #fff;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    display: block;
+}
+
+.global{
+    background-color: #f0f2f5;
+}
+
+.logo{
+    padding-top: 5px;
+    text-align: center;
+    height: 200px;
+}
+
+.fb-logo{
+    line-height: 100px;
+    width: 384px;
+    height: 284px;
+}
+
+.p1{
+    padding-top: 5px;
+}
+
+.p11{
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.p12{
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #606770;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+.form{
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    border-top: 1px solid #dadde1;
+    padding: 16px;
+    position: relative;
+    width: 432px;
+    height: 621px;
+    align-items: center;
+    margin: auto;
+}
+
+#fullname_feild{
+    width: 400px;
+    height: 50px;
+}
+
+#fn{
+    width: 194px;
+    height: 40px;
+}
+
+#sn{
+    width: 194px;
+    height: 40px;
+}
+
+.input{
+    color: #8d949e;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 11px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: text;
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 170px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #ccd0d5;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+
+#c, #pass{
+    width: 400px ;
+}
+
+#c{
+    margin-bottom: 12px;
+}
+
+.x{
+    margin-bottom: 4px;
+    color: #606770;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.bday{
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 20px;
+    width: 125px;
+    vertical-align: top;
+    background-color: #fff;
+    cursor: default;
+}
+
+#month, #year, #male, #custom{
+    margin-left: 9px;
+    overflow: visible !important;
+}
+
+.sex{
+    margin-right: 33px;
+}
+
+#cus, #m {
+    margin-left: 12px;
+}
+
+#cus {
+    width: 13px;
+    height: 13px;
+}
+
+p{
+    color: #777;
+    font-size: 11px;
+    margin: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+button{
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+    line-height: 126%;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    text-rendering: optimizeLegibility;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 194px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+}
+
+#signin{
+    color: #1877f2;
+    font-size: 17px;
+    line-height: 20px;
+    cursor: pointer;
+    text-align: center;
+}
