@@ -20,6 +20,10 @@ body{
     background-color: #f0f2f5;
 }
 
+.myDiv{
+    text-align: center;
+}
+
 .logo{
     padding-top: 5px;
     text-align: center;
