@@ -62,7 +62,7 @@ body{
     padding: 16px;
     position: relative;
     width: 432px;
-    height: 621px;
+    height: 550px;
     align-items: center;
     margin: auto;
 }
@@ -200,6 +200,9 @@ button{
     color: #1877f2;
     font-size: 17px;
     line-height: 20px;
-    cursor: pointer;
+    text-align: center;
+}
+
+#sign_in{
     text-align: center;
 }
